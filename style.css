@@ -1,0 +1,47 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    height: 100%;
+    background-color: #333333;
+}
+
+h1 {
+    text-align: center;
+    color: white;
+    padding-bottom: 10px;
+}
+
+.imagem {
+    display: flex;
+    justify-content: center;
+}
+
+#resultado {
+    width: 266px;
+    height: 133px;
+}
+
+label {
+    color: #EE394E;
+    font-weight: bold;
+}
+
+#digitapreco {
+    padding: 20px 0px;
+    display: flex;  
+}
+
+.caixatexto {
+    display: inline-block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.botao {
+    margin-top: 15px;
+    display: flex;
+    justify-content: center;
+}
