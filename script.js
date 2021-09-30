@@ -1,3 +1,4 @@
+function calcular () {
 var precoGasolina = document.querySelector('#gasolina')
 var precoAlcool = document.querySelector('#alcool')
 
@@ -13,11 +14,9 @@ else
 
 var img = document.getElementById("resultado")
 
-function calcular () {
-    
-    if (alcool == 0)
-        img.src = "img/alcool.png"
-    else if (alcool == 1)
-        img.src = "img/gasolina.png"
+if (alcool == 0)
+    img.src = "img/alcool.png"
+else
+    img.src = "img/gasolina.png"
 }
 
